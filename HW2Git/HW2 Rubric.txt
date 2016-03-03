@@ -1,0 +1,26 @@
+/* 
+Rubric -- See syllabus
+
+*/
+
+
+/*
+EX02_01: 
+	UML==============
+	Object===========
+	Test Program=====
+EX02_02: 
+	UML==============
+	Object===========
+	Test Program=====
+EX02_03: 
+	UML==============
+	Object===========
+	Test Program=====
+*/
+
+/*
+Notes:
+-UML looks great.
+-Great job all around.
+*/
