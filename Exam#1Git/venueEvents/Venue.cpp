@@ -33,8 +33,14 @@ Event Venue::findEvent(int time) //returns event corresponding to the given time
 Event Venue::findEvent(string name) //returns event corresponding to the given title
 {
     int i = 0;
-    while (scheduledEvents[i].getTitle() != name && i < 11) //loop tests for title matches in each element
-        i++;
+    while (scheduledEvents[i].getTitle() != name && i <= 11) //loop tests for title matches in each element
+    {
+        if(i != 11)
+            i++;
+        else
+            break;
+    }
+
     return scheduledEvents[i];
 }
 
